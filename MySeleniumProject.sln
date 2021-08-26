@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31313.79
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySeleniumProject", "MySeleniumProject\MySeleniumProject.csproj", "{5BDAB32C-3A86-4EBF-9528-2972894B2AB6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests.MySeleniumProject", "MySeleniumProject\Tests.MySeleniumProject.csproj", "{5BDAB32C-3A86-4EBF-9528-2972894B2AB6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Helpers", "Helpers\Helpers.csproj", "{AAA10F1D-B5C8-4CE3-AD06-D58DEFC76AC6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pages", "Pages\Pages.csproj", "{267DA5A3-D207-4A9E-8DE5-95FE1DDAD2E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{5BDAB32C-3A86-4EBF-9528-2972894B2AB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5BDAB32C-3A86-4EBF-9528-2972894B2AB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5BDAB32C-3A86-4EBF-9528-2972894B2AB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAA10F1D-B5C8-4CE3-AD06-D58DEFC76AC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAA10F1D-B5C8-4CE3-AD06-D58DEFC76AC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAA10F1D-B5C8-4CE3-AD06-D58DEFC76AC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAA10F1D-B5C8-4CE3-AD06-D58DEFC76AC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{267DA5A3-D207-4A9E-8DE5-95FE1DDAD2E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{267DA5A3-D207-4A9E-8DE5-95FE1DDAD2E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{267DA5A3-D207-4A9E-8DE5-95FE1DDAD2E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{267DA5A3-D207-4A9E-8DE5-95FE1DDAD2E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
